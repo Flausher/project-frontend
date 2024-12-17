@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="prikol.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div style="display: flex; align-items: center">
+                <a href="index.html"><img src="logo.png" alt="Логотип" class="logo"></a>
+                <h1>Logo text</h1>
+            </div>
+            <div class="header-info">
+                <h3 style="display: flex;">
+                    Группа
+                    <div style="text-decoration: dashed;">ЭФБО-05-23</div>
+                </h3>
+                <h3>Пушкин Владимир Александрович</h3>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="prikol3.html">Первый семестр</a></li>
+                <li><a href="#">Второй семестр</a></li>
+                <li><a href="prikol2.html">Услуги</a></li>
+                <li><a href="#">Авторизация</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <aside class = "aside_glav">
+            <h2>Навигация по странице</h2>
+            <ul>
+                <li><a href="#section1">Лекции</a></li>
+                <li><a href="#section2">Практики</a></li>
+                <li><a href="#section3">Рабочкая программа</a></li>
+            </ul>
+        </aside>
+        <main>
+            <h2>Добро пожаловать на мой сайт</h2>
+            <div style ="display: flex; justify-content: space-between;">
+                <h2>Фронтенд</h2>
+
+                <a href="#"><img src="myphoto.jpg" style = "width:100px; padding: 10px;"></a>
+            </div>
+            <p>Фронтенд-разработка — создание
+                интерфейса приложений. Той части, которую пользователь видит,
+                переходя, например, на сайт. Созданием всего, что вы видите,
+                открывая страницу, с чем взаимодействуете — кнопки, баннеры,
+                формы для ввода данных, поля, блоки данных — занимается
+                frontend-разработчик.</p>
+            <p>Основная задача фронтендера — превратить в рабочую
+                страницу в красивый макет, который создают дизайнеры при
+                поддержке UX-аналитиков, отвечающих за анализ
+                пользовательского опыта.</p>
+            <div class="vid">
+                <video controls>
+                    <source src="Gorillaz - Feel Good Inc. (Official Video).mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div>
+            <h2>Бэкенд</h2>
+            <p>Backend-development отвечает за связь с серверами, работу
+                с базами данных, внутреннюю логику продукта,
+                бизнес-процессы, за взаимодействие с данными, результаты
+                которого затем отображает фронтенд. Пользователь не замечает
+                эту работу, так как процессы вынесены за пределы компьютера
+                или браузера.</p>
+            <div class="vid">
+                <video controls>
+                    <source src="Two Feet - Go F_ck Yourself.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div>
+            
+        </main>
+        <button class="scroll-up" onclick="scrollToTop()">Up</button>
+    </section>
+
+    <footer>
+        <div class="footer-text">© Пушкин Владимир Александрович, 2024</div>
+        <div class="footer-images">
+            <a href="https://m.vk.com/"><img class="footer_img" src="vk.png" alt="VK"></a>
+            <a href="https://m.vk.com/"><img class="footer_img" src="tel.png" alt="Телефон"></a>
+        </div>
+    </footer>
+</body>
+</html>
+<script>
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+    </script>

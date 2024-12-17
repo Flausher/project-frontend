@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="prikol.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div style="display: flex; align-items: center">
+                <a href="index.html"><img src="logo.png" alt="Логотип" class="logo"></a>
+                <h1 id="main-header">Logo text</h1> <!-- Добавлен id для заголовка -->
+            </div>
+            <div class="header-info">
+                <h3 style="display: flex">
+                    Группа
+                    <div style="text-decoration: dashed;">ЭФБО-05-23</div>
+                </h3>
+                <h3>Пушкин Владимир Александрович</h3>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="prikol3.html">Первый семестр</a></li>
+                <li><a href="#">Второй семестр</a></li>
+                <li><a href="prikol2.html">Услуги</a></li>
+                <li><a href="#">Авторизация</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <aside>
+            <h2>Навигация по странице</h2>
+            <ul>
+                <li><a href="#section1">Лекции</a></li>
+                <li><a href="#section2">Практики</a></li>
+                <li><a href="#section3">Рабочая программа</a></li>
+            </ul>
+        </aside>
+        <main>
+            <div style = "display: flex; justify-content: space-around;">
+                <img src="myphoto.jpg" alt="Фото студента" class="student-photo" id="student-photo">
+                <img src="myphoto.jpg" alt="Фото студента" class="student-photo" id="student-photo2">
+            </div>
+            <h2><p style = "width: fit-content">Первый семестр</p></h2>
+        
+        <h2>Лекции</h2>
+        <h2 class = "lecturesh2"></h2>
+        <table class="table-60">
+            <thead>
+                <tr>
+                    <th>Номер</th>
+                    <th>Тема</th>
+                    <th>Посещение</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="tr_odd">
+                    <td>1</td>
+                    <td>Основы языка HTML</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_even">
+                    <td>2</td>
+                    <td>Углубленное изучение HTML</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_odd">
+                    <td>3</td>
+                    <td>Основы работы с CSS</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_even">
+                    <td>4</td>
+                    <td>Адаптивная верстка. Flexbox и Grid Layout</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_odd">
+                    <td>5</td>
+                    <td>Bootstrap - работа с мейнфреймом</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_even">
+                    <td>6</td>
+                    <td>Основы языка JavaScript</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_odd">
+                    <td>7</td>
+                    <td>Работа с DOM и событиями в JavaScript</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_even">
+                    <td>8</td>
+                    <td>Введение в GitHub и GitHub Pages</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Практики</h2>
+        
+        <table class="table-90" id="practices-table"> <!-- Добавлен id для таблицы практик -->
+            <thead>
+                <tr>
+                    <th>Номер</th>
+                    <th>Тема</th>
+                    <th>Посещение</th>
+                    <th>Выполнение</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="tr_odd">
+                    <td>1</td>
+                    <td>Основы языка HTML</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_even">
+                    <td>2</td>
+                    <td>Формы и кнопки в HTML</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_odd">
+                    <td>3</td>
+                    <td>Таблицы и интерактивные элементы в HTML</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_even">
+                    <td>4</td>
+                    <td>Основы работы с CSS</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_odd">
+                    <td>5</td>
+                    <td>Работа с классами в CSS</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_even">
+                    <td>6</td>
+                    <td>Работа с сетками и разметкой в HTML</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_odd">
+                    <td>7</td>
+                    <td>Адаптивная верстка</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_even">
+                    <td>8</td>
+                    <td>Bootstrap</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_odd">
+                    <td>9</td>
+                    <td>Основы языка JavaScript</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_even">
+                    <td>10</td>
+                    <td>Базовые задачи на JS</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_odd">
+                    <td>11</td>
+                    <td>DOM-структура приложений и работа с объектами на языке JS</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_even">
+                    <td>12</td>
+                    <td>Встраивание скриптов</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_odd">
+                    <td>13</td>
+                    <td>Отладка сценариев</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_even">
+                    <td>14</td>
+                    <td>Анимации и работа с ними</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_odd">
+                    <td>15</td>
+                    <td>Github</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr class="tr_even">
+                    <td>16</td>
+                    <td>Защита проекта</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <!-- Кнопка для смены тем практик -->
+        <button id="change-practices">Посмотреть практики второго семестра</button>
+
+        <div class="adres">
+            Занятия проходят по адресу:
+            <div class="underline">просп. Вернадского, 78, стр. 4, Москва</div>
+        </div>
+        <fieldset>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0241fed3485519bf83a8a720639fe70f8035937ca83552ca53ac933160d829f5&amp;source=constructor" allowfullscreen></iframe>
+        </fieldset>
+        <fieldset>
+            <legend>Рабочая программа</legend>
+            <div>
+                <embed src="ads.pdf" type="application/pdf" width="100%" height="600px" />
+            </div>
+        </fieldset>
+        </main>
+        <button class="scroll-up" onclick="scrollToTop()">Up</button>
+    </section>
+
+    <footer>
+        <div class="footer-text">© Пушкин Владимир Александрович, 2024</div>
+        <div class="footer-images">
+            <a href="https://m.vk.com/"><img class="footer_img" src="vk.png" alt="VK"></a>
+            <a href="https://m.vk.com/"><img class="footer_img" src="tel.png" alt="Телефон"></a>
+        </div>
+    </footer>
+</body>
+</html>
+<script>
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
+document.getElementById('main-header').addEventListener('click', function() {
+    alert("Вы кликнули на заголовок - так держать!");
+});
+
+
+const studentPhoto = document.getElementById('student-photo');
+
+studentPhoto.addEventListener('mouseover', function() {
+    this.style.transform = 'scale(1.1)';
+});
+
+studentPhoto.addEventListener('mouseout', function() {
+    this.style.transform = 'scale(1)';
+});
+
+studentPhoto.addEventListener('click', function() {
+    this.src = 'logo.png';
+    this.alt = 'Фото любимого преподавателя';
+});
+
+studentPhoto.addEventListener('dblclick', function() {
+    alert('Не налегай, у меня не так много любимых преподавателей');
+});
+
+document.getElementById('change-practices').addEventListener('click', function() {
+    const practicesTableBody = document.querySelector('#practices-table tbody');
+    const button = document.getElementById('change-practices');
+    
+
+    if (button.textContent === 'Посмотреть практики второго семестра') {
+        const secondSemesterTopics = [
+            'Базовое бэкенд-приложение',
+            'HTTP-запросы',
+            'JSON и работа с ним',
+            'HTTP-ответы',
+            'Проектирование API',
+            'Роутинг и его настройка',
+            'NoSQL базы данных',
+            'Обеспечение авторизации и доступа пользователей',
+            'Работа сторонних сервисов уведомления и авторизации',
+            'Основы ReactJS',
+            'Работа с компонентами динамической DOM',
+            'Использование хуков в React',
+            'Основы микросервисной архитектуры',
+            'Разработка классических модулей веб-приложений',
+            'Разработка классических модулей веб-приложений'
+        ];
+
+
+        practicesTableBody.innerHTML = '';
+
+        secondSemesterTopics.forEach((topic, index) => {
+            const row = document.createElement('tr');
+            row.className = index % 2 === 0 ? 'tr_even' : 'tr_odd';
+            row.innerHTML = `
+                <td>${index + 1}</td>
+                <td>${topic}</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            `;
+            practicesTableBody.appendChild(row);
+        });
+        
+        button.textContent = 'Посмотреть практики первого семестра';
+    } else {
+        const firstSemesterTopics = [
+            'Основы языка HTML',
+            'Формы и кнопки в HTML',
+            'Таблицы и интерактивные элементы в HTML',
+            'Основы работы с CSS',
+            'Работа с классами в CSS',
+            'Работа с сетками и разметкой в HTML',
+            'Адаптивная верстка',
+            'Bootstrap',
+            'Основы языка JavaScript',
+            'Базовые задачи на JS',
+            'DOM-структура приложений и работа с объектами на языке JS',
+            'Встраивание скриптов',
+            'Отладка сценариев',
+            'Анимации и работа с ними',
+            'Github',
+            'Защита проекта'
+        ];
+
+
+        practicesTableBody.innerHTML = '';
+
+
+        firstSemesterTopics.forEach((topic, index) => {
+            const row = document.createElement('tr');
+            row.className = index % 2 === 0 ? 'tr_even' : 'tr_odd';
+            row.innerHTML = `
+                <td>${index + 1}</td>
+                <td>${topic}</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            `;
+            practicesTableBody.appendChild(row);
+        });
+
+        button.textContent = 'Посмотреть практики второго семестра';
+    }
+});
+//Задание 14
+
+//1
+document.getElementById('main-header').addEventListener('mouseover', function() {
+    this.style.transform = 'scale(1.1)';
+    this.style.transition = 'transform 0.3s';
+});
+
+document.getElementById('main-header').addEventListener('mouseout', function() {
+    this.style.transform = 'scale(1)';
+    this.style.transition = 'transform 0.3s';
+});
+
+//2
+const paragraphs = document.querySelectorAll('p');
+
+paragraphs.forEach(paragraph => {
+paragraph.addEventListener('click', function() {
+    this.style.backgroundColor = getRandomColor();
+    this.style.transition = 'background-color 1s';
+});
+});
+
+function getRandomColor() {
+const letters = '0123456789ABCDEF';
+let color = '#';
+for (let i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+}
+return color;
+}
+
+//3
+const lecturesTable = document.querySelector('.table-60');
+lecturesTable.style.display = 'none';
+
+const showLecturesButton = document.createElement('button');
+showLecturesButton.textContent = 'Показать лекции';
+
+const buttonPlace = document.querySelector('.lecturesh2');
+if (buttonPlace) {
+    buttonPlace.parentNode.replaceChild(showLecturesButton, buttonPlace);
+}
+
+showLecturesButton.addEventListener('click', function() {
+    if (lecturesTable.style.display === 'none') {
+        lecturesTable.style.display = 'block';
+        lecturesTable.style.opacity = 0;
+        setTimeout(() => {
+            lecturesTable.style.opacity = 1;
+            lecturesTable.style.transition = 'opacity 0.5s';
+        }, 10);
+        showLecturesButton.textContent = 'Скрыть лекции';
+    } else {
+        lecturesTable.style.opacity = 0; 
+        setTimeout(() => {
+            lecturesTable.style.display = 'none'; 
+        }, 500);
+        showLecturesButton.textContent = 'Показать лекции';
+    }
+});
+
+//4
+const studentPhoto2 = document.getElementById('student-photo2');
+
+studentPhoto2.addEventListener('mouseover', function() {
+this.style.transform = 'rotate(30deg)';
+this.style.transition = 'transform 0.3s';
+});
+
+studentPhoto2.addEventListener('mouseout', function() {
+this.style.transform = 'rotate(0deg)';
+});
+
+</script>
